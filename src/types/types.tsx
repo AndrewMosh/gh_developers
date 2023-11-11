@@ -5,10 +5,11 @@ interface User {
   html_url: string;
   followers_url: string;
   following_url: string;
-  repos_url: string;
+  repos_url: string[];
   starred_url: string;
   subscriptions_url: string;
   site_admin: boolean;
   type: string;
+  bio: string;
 }
 export default User;

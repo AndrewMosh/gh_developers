@@ -1,0 +1,31 @@
+.form {
+  margin: 10px auto 0 auto;
+  max-width: 600px;
+  display: flex;
+  gap: 10px;
+}
+@media screen and (max-width: 690px) {
+  .form {
+    margin: 20px;
+  }
+}
+.button {
+  text-align: center;
+  background-color: rgb(1, 11, 74);
+  border: none;
+  border-radius: 5px;
+  padding: 0 15px;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(226, 225, 249);
+  color: rgb(1, 11, 74);
+}
+.logo img {
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+}
+.container {
+  max-width: 100%;
+}
