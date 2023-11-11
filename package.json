@@ -5,9 +5,10 @@
   "homepage": "https://andrewmosh.github.io/gh_developers/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build": "npm run build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
